@@ -74,13 +74,13 @@ export const mockForumPosts: ForumPost[] = [
 ];
 
 export const mockVideoTutorials: VideoTutorial[] = [
-  { id: 'v1', title: 'How to Make Vermicompost at Home', description: 'Step-by-step guide to creating nutrient-rich vermicompost for your farm.', videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ', thumbnailUrl: 'https://picsum.photos/seed/vermicompost/300/150' },
-  { id: 'v2', title: 'Identifying Common Crop Diseases', description: 'Learn to identify early signs of common diseases in major crops like rice and wheat.', videoUrl: 'https://www.youtube.com/embed/oHg5SJYRHA0', thumbnailUrl: 'https://picsum.photos/seed/cropdisease/300/150' },
+  { id: 'v1', title: 'How to Make Vermicompost at Home', description: 'Step-by-step guide to creating nutrient-rich vermicompost for your farm.', videoUrl: 'https://youtu.be/TP6lDX6TEI8', thumbnailUrl: 'https://unclejimswormfarm.com/wp-content/uploads/2023/04/earthworms-on-hand-for-organic-fertilizer-farming-concept.jpg' },
+  { id: 'v2', title: 'Identifying Common Crop Diseases', description: 'Learn to identify early signs of common diseases in major crops like rice and wheat.', videoUrl: 'https://youtu.be/n7RY6rCu9Is', thumbnailUrl: 'https://imagevision.ai/wp-content/uploads/2025/05/Plant-disease-detection_website-.jpg' },
 ];
 
 export const mockLocalBusinesses: LocalBusiness[] = [
   { id: 'b1', name: 'Vipin Agriculture Store', category: 'Agriculture Inputs Store', description: 'Sells quality seeds, fertilizers, and pesticides.', contact: '7500421643', location: 'Village - Kapna, Jahangirpur Road Kapna', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5AfX-KG53tyyxdTO1OMghkyKYwEq8ca6qxw&s' },
-  { id: 'b2', name: 'Jyoti Self Help Group - Handicrafts', category: 'Handicrafts', description: 'Beautiful handmade items by local women artisans.', contact: 'shgjyoti@email.com', location: 'Village Community Hall', imageUrl: 'https://st3.depositphotos.com/33041278/36030/i/450/depositphotos_360304132-stock-photo-faridabad-haryana-india-february-2020.jpg' },
+  { id: 'b2', name: 'Jyoti Self Help Group - Handicrafts', category: 'Handicrafts', description: 'Beautiful handmade items by local women artisans.', contact: 'selfhelpgroup@email.com', location: 'Kapna Community Hall', imageUrl: 'https://st3.depositphotos.com/33041278/36030/i/450/depositphotos_360304132-stock-photo-faridabad-haryana-india-february-2020.jpg' },
   { id: 'b3', name: 'Saddam Ali Khan Farm Equipment Repair', category: 'Repair Services', description: 'Expert repair for tractors, pumps, and other farm machinery.', contact: '7668766264', location: 'Kapna, Jhajhar', imageUrl: 'https://5.imimg.com/data5/SELLER/Default/2022/9/CE/RU/ST/115179424/agriculture-machinery-repair-service-500x500.jpg' },
 ];
     
