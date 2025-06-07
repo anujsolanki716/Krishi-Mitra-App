@@ -2,10 +2,10 @@
 import { Crop, MarketListing, GovernmentScheme, ForumPost, VideoTutorial, LocalBusiness } from '../types';
 
 export const mockCrops: Crop[] = [
-  { id: '1', name: 'Rice (धान/அரிசி)', image: 'https://picsum.photos/seed/rice/100/100', description: 'Staple food crop, requires significant water.', plantingSeason: 'Kharif (June-July)', harvestTime: 'October-November' },
-  { id: '2', name: 'Wheat (गेहूँ/கோதுமை)', image: 'https://picsum.photos/seed/wheat/100/100', description: 'Major winter cereal crop.', plantingSeason: 'Rabi (October-December)', harvestTime: 'February-April' },
-  { id: '3', name: 'Maize (मक्का/சோளம்)', image: 'https://picsum.photos/seed/maize/100/100', description: 'Versatile crop used for food and feed.', plantingSeason: 'Kharif / Spring', harvestTime: 'Varies' },
-  { id: '4', name: 'Cotton (कपास/பருத்தி)', image: 'https://picsum.photos/seed/cotton/100/100', description: 'Important fiber crop.', plantingSeason: 'Kharif (April-May)', harvestTime: 'October-December' },
+  { id: '1', name: 'Rice (धान)', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Mature_Rice_%28India%29_by_Augustus_Binu.jpg/330px-Mature_Rice_%28India%29_by_Augustus_Binu.jpg', description: 'Staple food crop, requires significant water.', plantingSeason: 'Kharif (June-July)', harvestTime: 'October-November' },
+  { id: '2', name: 'Wheat (गेहूँ)', image: 'https://media.istockphoto.com/id/177537480/photo/gold-wheat-field-and-blue-sky.jpg?s=612x612&w=0&k=20&c=CAxLzTeCt4qBn7fifuoOh70ycoHr9w7FyeNVzkde_IM=', description: 'Major winter cereal crop.', plantingSeason: 'Rabi (October-December)', harvestTime: 'February-April' },
+  { id: '3', name: 'Maize (मक्का)', image: 'https://www.shutterstock.com/image-photo/fresh-corn-cobs-dry-seeds-260nw-1784181305.jpg', description: 'Versatile crop used for food and feed.', plantingSeason: 'Kharif / Spring', harvestTime: 'Varies' },
+  { id: '4', name: 'Cotton (कपास)', image: 'https://t4.ftcdn.net/jpg/06/84/31/79/360_F_684317966_Pn9qU1DEfW5zpwoj25znJ1i0VdaOM2Px.jpg', description: 'Important fiber crop.', plantingSeason: 'Kharif (April-May)', harvestTime: 'October-December' },
 ];
 
 export const mockMarketListings: MarketListing[] = [
@@ -79,8 +79,8 @@ export const mockVideoTutorials: VideoTutorial[] = [
 ];
 
 export const mockLocalBusinesses: LocalBusiness[] = [
-  { id: 'b1', name: 'Shakti Agri Inputs', category: 'Agri Inputs Store', description: 'Sells quality seeds, fertilizers, and pesticides.', contact: '98XXXXXX01', location: 'Local Village Market', imageUrl: 'https://picsum.photos/seed/agristore/300/200' },
-  { id: 'b2', name: 'Jyoti Self Help Group - Handicrafts', category: 'Handicrafts', description: 'Beautiful handmade items by local women artisans.', contact: 'shgjyoti@email.com', location: 'Village Community Hall', imageUrl: 'https://picsum.photos/seed/handicrafts/300/200' },
-  { id: 'b3', name: 'Farm Equipment Repair', category: 'Repair Services', description: 'Expert repair for tractors, pumps, and other farm machinery.', contact: '0123-456789', location: 'Near Highway Crossing', imageUrl: 'https://picsum.photos/seed/farmrepair/300/200' },
+  { id: 'b1', name: 'Vipin Agriculture Store', category: 'Agriculture Inputs Store', description: 'Sells quality seeds, fertilizers, and pesticides.', contact: '7500421643', location: 'Village - Kapna, Jahangirpur Road Kapna', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5AfX-KG53tyyxdTO1OMghkyKYwEq8ca6qxw&s' },
+  { id: 'b2', name: 'Jyoti Self Help Group - Handicrafts', category: 'Handicrafts', description: 'Beautiful handmade items by local women artisans.', contact: 'shgjyoti@email.com', location: 'Village Community Hall', imageUrl: 'https://st3.depositphotos.com/33041278/36030/i/450/depositphotos_360304132-stock-photo-faridabad-haryana-india-february-2020.jpg' },
+  { id: 'b3', name: 'Saddam Ali Khan Farm Equipment Repair', category: 'Repair Services', description: 'Expert repair for tractors, pumps, and other farm machinery.', contact: '7668766264', location: 'Kapna, Jhajhar', imageUrl: 'https://5.imimg.com/data5/SELLER/Default/2022/9/CE/RU/ST/115179424/agriculture-machinery-repair-service-500x500.jpg' },
 ];
     
