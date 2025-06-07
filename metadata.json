@@ -1,0 +1,6 @@
+{
+  "name": "Krishi Mitra: Farmer's Companion App",
+  "description": "A web application designed to support farmers in developing countries with income generation, farming advice, market linkage, government scheme awareness, and community learning. Features AI-powered expert advice via Gemini.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
