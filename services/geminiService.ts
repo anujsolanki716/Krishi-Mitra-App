@@ -1,4 +1,3 @@
-
 import { GoogleGenAI, GenerateContentResponse, Content, Part } from "@google/genai";
 import { GEMINI_API_KEY, GEMINI_TEXT_MODEL } from '../constants';
 
