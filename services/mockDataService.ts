@@ -9,9 +9,9 @@ export const mockCrops: Crop[] = [
 ];
 
 export const mockMarketListings: MarketListing[] = [
-  { id: 'm1', cropName: 'Organic Tomatoes', quantity: '100kg', price: '₹30/kg', sellerName: 'Sita Devi', location: 'Nashik, Maharashtra', imageUrl: 'https://picsum.photos/seed/tomatoes/200/150', type: 'sell' },
-  { id: 'm2', cropName: 'Basmati Rice', quantity: '5 Quintals', price: '₹7000/quintal', sellerName: 'Rajesh Farms', location: 'Karnal, Haryana', imageUrl: 'https://picsum.photos/seed/basmati/200/150', type: 'sell' },
-  { id: 'm3', cropName: 'Fresh Mangoes (Alphonso)', quantity: 'Looking for 20 Dozen', price: 'Market Rate', sellerName: 'Fruit Junction Co.', location: 'Mumbai, Maharashtra', imageUrl: 'https://picsum.photos/seed/mangoes/200/150', type: 'buy' },
+  { id: 'm1', cropName: 'Organic Tomatoes', quantity: '100kg', price: '₹30/kg', sellerName: 'Naneen Solanki', location: 'Chandigarh', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSAQBnuCIIdX38FyG9Ey2wjeGlf0pU_gx3vw&s', type: 'sell' },
+  { id: 'm2', cropName: 'Basmati Rice', quantity: '5 Quintals', price: '₹7000/quintal', sellerName: 'Anuj Farm', location: 'Kapna, Jhajhar', imageUrl: 'https://media.istockphoto.com/id/519309790/photo/pile-of-raw-basmati-rice-with-a-spoon.jpg?s=612x612&w=0&k=20&c=A9A87HykypkOo5qLMQm6bZjBQn83NE1NHMppw8-6Tnc=', type: 'sell' },
+  { id: 'm3', cropName: 'Fresh Mangoes (Alphonso)', quantity: '200 kg', price: 'Market Rate', sellerName: 'Solanki Junction', location: 'Near Jewar Airport Kapna', imageUrl: 'https://media.istockphoto.com/id/1152750103/photo/sliced-alphonso-mangoes.jpg?s=612x612&w=0&k=20&c=hEnXEjJC0WPVA7OzTIVY_DMeexjSAX_Dk5RCEgOX_S8=', type: 'buy' },
 ];
 
 export const mockGovernmentSchemes: GovernmentScheme[] = [
@@ -55,16 +55,16 @@ export const mockGovernmentSchemes: GovernmentScheme[] = [
     link: 'https://pmkisan.gov.in/',
     language: 'hi'
   },
-  { 
-    id: 's1ta', 
-    name: 'பிரதம மந்திரி ஃபசல் பீமா யோஜனா (PMFBY)', 
-    description: 'எதிர்பாராத நிகழ்வுகளால் பயிர் இழப்பு/சேதம் அடையும் விவசாயிகளுக்கு நிதி உதவி வழங்கும் பயிர் காப்பீட்டுத் திட்டம்.',
-    eligibility: 'அறிவிக்கப்பட்ட பகுதிகளில் அறிவிக்கப்பட்ட பயிர்களை பயிரிடும் அனைத்து விவசாயிகளும், குத்தகைதாரர்கள் மற்றும் பங்குதாரர்கள் உட்பட, காப்பீட்டிற்கு தகுதியானவர்கள்.',
-    benefits: 'பயிர் தோல்விக்கு எதிரான காப்பீட்டுத் தொகை, மானிய விலையில் பிரீமியம்.',
-    howToApply: 'அருகிலுள்ள வங்கி, CSC, அல்லது காப்பீட்டு நிறுவனத்தைத் தொடர்பு கொள்ளவும். தேசிய பயிர் காப்பீட்டு போர்டல் மூலம் ஆன்லைனில் விண்ணப்பிக்கவும்.',
-    link: 'https://pmfby.gov.in/',
-    language: 'ta'
-  },
+  // { 
+  //   id: 's1ta', 
+  //   name: 'பிரதம மந்திரி ஃபசல் பீமா யோஜனா (PMFBY)', 
+  //   description: 'எதிர்பாராத நிகழ்வுகளால் பயிர் இழப்பு/சேதம் அடையும் விவசாயிகளுக்கு நிதி உதவி வழங்கும் பயிர் காப்பீட்டுத் திட்டம்.',
+  //   eligibility: 'அறிவிக்கப்பட்ட பகுதிகளில் அறிவிக்கப்பட்ட பயிர்களை பயிரிடும் அனைத்து விவசாயிகளும், குத்தகைதாரர்கள் மற்றும் பங்குதாரர்கள் உட்பட, காப்பீட்டிற்கு தகுதியானவர்கள்.',
+  //   benefits: 'பயிர் தோல்விக்கு எதிரான காப்பீட்டுத் தொகை, மானிய விலையில் பிரீமியம்.',
+  //   howToApply: 'அருகிலுள்ள வங்கி, CSC, அல்லது காப்பீட்டு நிறுவனத்தைத் தொடர்பு கொள்ளவும். தேசிய பயிர் காப்பீட்டு போர்டல் மூலம் ஆன்லைனில் விண்ணப்பிக்கவும்.',
+  //   link: 'https://pmfby.gov.in/',
+  //   language: 'ta'
+  // },
 ];
 
 

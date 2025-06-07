@@ -73,7 +73,7 @@ const Navbar: React.FC<NavbarProps> = ({ appName }) => {
             >
               <option value={Language.EN} className="text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-700">English</option>
               <option value={Language.HI} className="text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-700">हिन्दी</option>
-              <option value={Language.TA} className="text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-700">தமிழ்</option>
+              {/* <option value={Language.TA} className="text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-700">தமிழ்</option> */}
             </select>
           </div>
           <button
