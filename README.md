@@ -1,5 +1,3 @@
-# Run and deploy your AI app
-
 # 🌾 Krishi Mitra – Empowering Farmers Digitally
 
 **Krishi Mitra** is a comprehensive web application designed to serve as a digital companion for farmers, particularly those in developing countries. It aims to provide vital agricultural support, improve income opportunities, and strengthen community engagement through modern web technologies and AI integration.
@@ -20,7 +18,7 @@
 ### 🏛️ Government Schemes Awareness
 - Lists key schemes like crop insurance and income support.
 - Shows eligibility criteria, benefits, and how to apply.
-- Multi-language support: **English, Hindi, Tamil**.
+- Multi-language support: **English, Hindi**.
 
 ### 👥 Community & Learning
 - Discussion forum for peer-to-peer support.
@@ -66,6 +64,7 @@
 
 ## 📁 Directory Overview
 
+# Run and deploy your AI app
 
 
 This contains everything you need to run your app locally.
