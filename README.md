@@ -1,30 +1,42 @@
 # 🌾 Krishi Mitra – Empowering Farmers Digitally
 
 **Krishi Mitra** is a comprehensive web application designed to serve as a digital companion for farmers, particularly those in developing countries. It aims to provide vital agricultural support, improve income opportunities, and strengthen community engagement through modern web technologies and AI integration.
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/5982f00d-2726-4b85-9a04-4e9ec7ad81f1" />
+
 
 ---
 
 ## 🚀 Core Features
 
 ### 🤖 AI-Powered Farming Intel
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/258eef46-3b14-47db-bc10-5c07b5e0b482" />
+
 - Integrated with **Google Gemini API** to provide real-time expert advice.
 - Farmers can ask questions about crop diseases, pest control, best practices, etc.
 - Includes a quick crop guide and live weather widget.
 
 ### 🛒 Market Connect
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/e061e95a-039a-4480-bcf7-84bf08094e02" />
+
 - A platform for farmers to **buy/sell produce** directly.
 - Users can post listings and connect with local buyers or sellers.
 
 ### 🏛️ Government Schemes Awareness
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/680749e4-1d31-42e0-8ec5-fa47bfbd42f4" />
+
 - Lists key schemes like crop insurance and income support.
 - Shows eligibility criteria, benefits, and how to apply.
 - Multi-language support: **English, Hindi**.
 
 ### 👥 Community & Learning
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/5b616ba0-f954-472c-9cbc-8436ac5725aa" />
+
 - Discussion forum for peer-to-peer support.
 - Includes **video tutorials**, guides, and **farmer success stories**.
 
-### 💼 Income Hub
+### 💼 Income Hub 
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/71bfe134-7945-4964-b236-4dfb4fa8d0e8" />
+
 - Suggests alternative income sources for farmers.
 - Lists relevant local businesses and agri-based services.
 
