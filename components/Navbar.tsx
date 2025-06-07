@@ -26,9 +26,9 @@ const Navbar: React.FC<NavbarProps> = ({ appName }) => {
     { path: '/', label: 'Dashboard' },
     { path: '/farming-support', label: 'Farming Intel' },
     { path: '/market', label: 'Market' },
+    { path: '/schemes', label: 'Schemes' },
     { path: '/community', label: 'Community' },
     { path: '/income', label: 'Income Hub' },
-    { path: '/schemes', label: 'Schemes' },
   ];
 
   const handleAuthAction = () => {

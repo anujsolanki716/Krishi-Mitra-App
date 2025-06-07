@@ -51,7 +51,7 @@ const MainAppLayout: React.FC<MainAppLayoutProps> = ({ navLinks }) => {
         <>
           <nav className={`fixed bottom-0 left-0 right-0 bg-white ${theme === 'dark' ? 'dark:bg-gray-800 dark:border-gray-700' : 'border-gray-200'} shadow-t-lg border-t  md:hidden z-40`}>
             <div className="max-w-md mx-auto flex justify-around">
-              {navLinks.slice(0, 5).map(link => (
+              {navLinks.slice(0, 6).map(link => (
                 <Link
                   key={link.path}
                   to={link.path}

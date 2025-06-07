@@ -4,7 +4,7 @@ import React, { createContext } from 'react';
 export enum Language {
   EN = 'en',
   HI = 'hi', // Hindi
-  TA = 'ta', // Tamil
+  // TA = 'ta', // Tamil
 }
 
 export interface AppContextType {

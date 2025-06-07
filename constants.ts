@@ -46,21 +46,21 @@ export const TEXTS = {
     communityTitle: "समुदाय और सीखना",
     incomeTitle: "आय केंद्र",
     // Add more translations
-  },
-  ta: {
-    welcome: "கிருஷி மித்ராவுக்கு வரவேற்கிறோம்!",
-    askAgriExpert: "வேளாண் நிபுணரிடம் கேளுங்கள்",
-    marketPrices: "சந்தை விலைகள்",
-    govtSchemes: "அரசு திட்டங்கள்",
-    communityForum: "சமூக மன்றம்",
-    weatherForecast: "வானிலை முன்னறிவிப்பு",
-    dashboardTitle: "முதன்மை பக்கம்",
-    farmingSupportTitle: "வேளாண்மை நுண்ணறிவு",
-    marketLinkTitle: "சந்தை இணைப்பு",
-    govSchemesTitle: "அரசு திட்டங்கள்",
-    communityTitle: "சமூகம் மற்றும் கற்றல்",
-    incomeTitle: "வருமான மையம்",
-    // Add more translations
   }
+  // ta: {
+  //   welcome: "கிருஷி மித்ராவுக்கு வரவேற்கிறோம்!",
+  //   askAgriExpert: "வேளாண் நிபுணரிடம் கேளுங்கள்",
+  //   marketPrices: "சந்தை விலைகள்",
+  //   govtSchemes: "அரசு திட்டங்கள்",
+  //   communityForum: "சமூக மன்றம்",
+  //   weatherForecast: "வானிலை முன்னறிவிப்பு",
+  //   dashboardTitle: "முதன்மை பக்கம்",
+  //   farmingSupportTitle: "வேளாண்மை நுண்ணறிவு",
+  //   marketLinkTitle: "சந்தை இணைப்பு",
+  //   govSchemesTitle: "அரசு திட்டங்கள்",
+  //   communityTitle: "சமூகம் மற்றும் கற்றல்",
+  //   incomeTitle: "வருமான மையம்",
+  //   // Add more translations
+  // }
 };
     
