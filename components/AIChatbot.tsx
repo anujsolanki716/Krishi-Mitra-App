@@ -63,11 +63,61 @@ const AIChatbot: React.FC = () => {
     }
   }, [input, isLoading, messages]);
 
-  const handleVoiceInput = () => {
-    // Placeholder for voice input functionality
-    // Web Speech API integration would go here.
-    alert("Voice input feature is under development.");
+// through the voice
+const SpeechRecognition = window.SpeechRecognition || (window as any).webkitSpeechRecognition;
+const recognitionRef = useRef<any>(null);
+const [isListening, setIsListening] = useState(false);
+
+useEffect(() => {
+  if (!SpeechRecognition) {
+    console.warn('Speech Recognition not supported in this browser.');
+    return;
+  }
+
+  const recognition = new SpeechRecognition();
+  recognition.lang = 'en-US';
+  recognition.interimResults = false;
+  recognition.maxAlternatives = 1;
+
+  recognition.onresult = (event: SpeechRecognitionEvent) => {
+    const transcript = event.results[0][0].transcript;
+    setInput(prev => `${prev} ${transcript}`);
+    setIsListening(false);
   };
+
+  recognition.onerror = () => {
+    setIsListening(false);
+  };
+
+  recognition.onend = () => {
+    setIsListening(false);
+  };
+
+  recognitionRef.current = recognition;
+}, []);
+
+const handleVoiceInput = () => {
+  if (!recognitionRef.current) {
+    alert('Voice recognition not supported in your browser.');
+    return;
+  }
+
+  if (isListening) {
+    recognitionRef.current.stop();
+    setIsListening(false);
+  } else {
+    recognitionRef.current.start();
+    setIsListening(true);
+  }
+};
+
+
+
+  // const handleVoiceInput = () => {
+  //   // Placeholder for voice input functionality
+  //   // Web Speech API integration would go here.
+  //   alert("Voice input feature is under development.");
+  // };
 
   return (
     <Card title={texts.askAgriExpert} className="bg-gradient-to-br from-green-50 to-emerald-100 dark:from-gray-700 dark:to-gray-800">
@@ -93,7 +143,7 @@ const AIChatbot: React.FC = () => {
           ))}
           {isLoading && (
             <div className="flex justify-center py-2">
-              <LoadingSpinner size="sm" text="AI is thinking..." />
+              <LoadingSpinner size="sm" text="Ram Ram Ji 🙏 Bas Thodi Der me Soch Ke baata raha hu aap ke saawal ka jawab..." />
             </div>
           )}
           {error && <p className="text-red-500 text-sm text-center">{error}</p>}
@@ -112,7 +162,7 @@ const AIChatbot: React.FC = () => {
             value={input}
             onChange={e => setInput(e.target.value)}
             onKeyPress={e => e.key === 'Enter' && handleSend()}
-            placeholder="Ask your farming question..."
+            placeholder="Adhik Jankari ke liye yaha tap kare krishi se jude koi bhi question ho..."
             className="flex-grow p-3 border border-gray-300 dark:border-gray-500 rounded-lg focus:ring-2 focus:ring-primary dark:focus:ring-green-400 outline-none bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-200"
             disabled={isLoading}
           />

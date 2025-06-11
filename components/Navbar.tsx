@@ -1,8 +1,8 @@
-
 import React, { useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AppContext, Language } from '../AppContext';
 import { SunIcon, MoonIcon, GlobeAltIcon, UserCircleIcon, ArrowLeftOnRectangleIcon } from './Icons';
+
 
 interface NavbarProps {
   appName: string;
@@ -13,7 +13,7 @@ const Navbar: React.FC<NavbarProps> = ({ appName }) => {
   const navigate = useNavigate();
 
   if (!context) {
-    return null; // Or some fallback UI
+    return null;
   }
 
   const { language, setLanguage, theme, toggleTheme, isAuthenticated, logout } = context;
@@ -33,7 +33,7 @@ const Navbar: React.FC<NavbarProps> = ({ appName }) => {
 
   const handleAuthAction = () => {
     if (isAuthenticated) {
-      logout(); // logout function from context will handle navigation
+      logout();
     } else {
       navigate('/auth');
     }
@@ -42,13 +42,18 @@ const Navbar: React.FC<NavbarProps> = ({ appName }) => {
   return (
     <header className="bg-primary dark:bg-green-700 text-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <Link to="/" className="text-xl md:text-2xl font-bold hover:opacity-80 transition-opacity">
-          {appName}
+        <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
+          <img src="https://videos.openai.com/vg-assets/assets%2Ftask_01jxfahx3fep7sjf4hb83kx318%2F1749639886_img_2.webp?st=2025-06-11T09%3A46%3A39Z&se=2025-06-17T10%3A46%3A39Z&sks=b&skt=2025-06-11T09%3A46%3A39Z&ske=2025-06-17T10%3A46%3A39Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=8ebb0df1-a278-4e2e-9c20-f2d373479b3a&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=gEtuFialJcA4XT1OcSCuzN9ec%2FlfvFhGel64di6XRh4%3D&az=oaivgprodscus" alt="Krishi Mitra Logo" className="h-24 w-22 object-contain" />
+          {/* <span className="text-xl md:text-2xl font-bold hidden sm:inline">{appName}</span> */}
         </Link>
-        
+
         <nav className="hidden md:flex space-x-4">
           {navLinks.map(link => (
-            <Link key={link.path} to={link.path} className="hover:text-green-200 dark:hover:text-green-300 transition-colors px-2 py-1 rounded-md text-sm">
+            <Link
+              key={link.path}
+              to={link.path}
+              className="hover:text-green-200 dark:hover:text-green-300 transition-colors px-2 py-1 rounded-md text-md font-medium"
+            >
               {link.label}
             </Link>
           ))}
@@ -62,7 +67,7 @@ const Navbar: React.FC<NavbarProps> = ({ appName }) => {
           >
             {theme === 'light' ? <MoonIcon className="w-5 h-5" /> : <SunIcon className="w-5 h-5" />}
           </button>
-          
+
           <div className="relative">
             <GlobeAltIcon className="w-5 h-5 absolute left-2 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400" />
             <select
@@ -73,9 +78,9 @@ const Navbar: React.FC<NavbarProps> = ({ appName }) => {
             >
               <option value={Language.EN} className="text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-700">English</option>
               <option value={Language.HI} className="text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-700">हिन्दी</option>
-              {/* <option value={Language.TA} className="text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-700">தமிழ்</option> */}
             </select>
           </div>
+
           <button
             onClick={handleAuthAction}
             className="p-2 rounded-full hover:bg-white/20 dark:hover:bg-black/20 transition-colors"
