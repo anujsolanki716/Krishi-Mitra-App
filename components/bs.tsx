@@ -43,13 +43,12 @@ const Navbar: React.FC<NavbarProps> = ({ appName }) => {
     <header className="bg-primary dark:bg-green-700 text-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link to="/" className="text-xl md:text-2xl font-bold hover:opacity-80 transition-opacity">
-        <img src="https://videos.openai.com/vg-assets/assets%2Ftask_01jxfahx3fep7sjf4hb83kx318%2F1749639886_img_2.webp?st=2025-06-11T09%3A46%3A39Z&se=2025-06-17T10%3A46%3A39Z&sks=b&skt=2025-06-11T09%3A46%3A39Z&ske=2025-06-17T10%3A46%3A39Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=8ebb0df1-a278-4e2e-9c20-f2d373479b3a&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=gEtuFialJcA4XT1OcSCuzN9ec%2FlfvFhGel64di6XRh4%3D&az=oaivgprodscus" alt="Krishi Mitra Logo" className="h-20 w-18 object-contain" />
-          {/* {appName} */}
+          {appName}
         </Link>
         
         <nav className="hidden md:flex space-x-4">
           {navLinks.map(link => (
-            <Link key={link.path} to={link.path} className="hover:text-green-200 dark:hover:text-green-300 transition-colors px-2 py-1 rounded-md text-md font-medium">
+            <Link key={link.path} to={link.path} className="hover:text-green-200 dark:hover:text-green-300 transition-colors px-2 py-1 rounded-md text-sm">
               {link.label}
             </Link>
           ))}
@@ -92,3 +91,9 @@ const Navbar: React.FC<NavbarProps> = ({ appName }) => {
 };
 
 export default Navbar;
+
+
+
+
+
+<img src="https://videos.openai.com/vg-assets/assets%2Ftask_01jxfahx3fep7sjf4hb83kx318%2F1749639886_img_2.webp?st=2025-06-11T09%3A46%3A39Z&se=2025-06-17T10%3A46%3A39Z&sks=b&skt=2025-06-11T09%3A46%3A39Z&ske=2025-06-17T10%3A46%3A39Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=8ebb0df1-a278-4e2e-9c20-f2d373479b3a&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=gEtuFialJcA4XT1OcSCuzN9ec%2FlfvFhGel64di6XRh4%3D&az=oaivgprodscus" alt="Krishi Mitra Logo" className="h-24 w-22 object-contain" />
