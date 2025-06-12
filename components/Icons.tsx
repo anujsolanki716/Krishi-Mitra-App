@@ -195,10 +195,12 @@ export const PencilSquareIcon: React.FC<IconProps> = (props) => (
   </svg>
 );
 
-export const UserGroupIcon: React.FC<IconProps> = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" {...props}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.249-3.498a3.752 3.752 0 014.498 0M15 12a3 3 0 11-6 0 3 3 0 016 0zm6 3a9 9 0 10-18 0 9 9 0 0018 0zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0z" />
-  </svg>
+export const UserGroupIcon: React.FC<IconImageProps> = (props) => (
+  <img
+  src="https://www.iconpacks.net/icons/1/free-user-group-icon-296-thumb.png" 
+  alt="Home"
+  {...props}
+  />
 );
 
 export const CurrencyRupeeIcon: React.FC<IconImageProps> = (props) => (
