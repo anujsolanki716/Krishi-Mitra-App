@@ -22,10 +22,10 @@ const GovSchemesPage: React.FC = () => {
     <div className="space-y-8">
       <div className="flex items-center space-x-3">
         <BanknotesIcon className="w-10 h-10 text-primary dark:text-green-400" />
-        <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-100">{texts.govSchemesTitle}</h1>
+        <h1 className="text-3xl font-bold text-black-50 dark:text-white-500">{texts.govSchemesTitle}</h1>
       </div>
       
-      <p className="text-gray-600 dark:text-gray-400">
+      <p className="text-gray-1000 dark:text-gray-500">
         Explore various government schemes designed to support farmers and rural development. 
         Information is available in multiple languages.
       </p>

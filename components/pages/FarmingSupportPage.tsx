@@ -39,7 +39,7 @@ const FarmingSupportPage: React.FC = () => {
 
   return (
     <div className="space-y-8">
-      <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-100">{texts.farmingSupportTitle}</h1>
+      <h1 className="text-3xl font-bold text-black-500 dark:text-white-500">{texts.farmingSupportTitle}</h1>
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="md:col-span-2">

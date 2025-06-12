@@ -57,7 +57,7 @@ const MarketLinkPage: React.FC = () => {
   return (
     <div className="space-y-8">
       <div className="flex justify-between items-center">
-        <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-100">{texts.marketLinkTitle}</h1>
+        <h1 className="text-3xl font-bold text-black-50 dark:text-white-500">{texts.marketLinkTitle}</h1>
         <button
           onClick={() => setShowForm(!showForm)}
           className="bg-primary hover:bg-green-600 dark:bg-green-600 dark:hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md flex items-center transition-colors"
@@ -98,12 +98,12 @@ const MarketLinkPage: React.FC = () => {
       )}
 
       <div>
-        <h2 className="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-200 flex items-center">
+        <h2 className="text-2xl font-semibold mb-4 text-gray-1000 dark:text-gray-500 flex items-center">
             <ShoppingCartIcon className="w-7 h-7 mr-2 text-primary dark:text-green-400" />
             Current Market Listings
         </h2>
         {listings.length === 0 ? (
-          <p className="text-gray-500 dark:text-gray-400">No listings available at the moment.</p>
+          <p className="text-gray-700 dark:text-gray-500">No listings available at the moment.</p>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {listings.map(listing => <MarketListItem key={listing.id} listing={listing} />)}

@@ -48,12 +48,12 @@ const CommunityPage: React.FC = () => {
     <div className="space-y-8">
       <div className="flex items-center space-x-3">
         <UserGroupIcon className="w-10 h-10 text-primary dark:text-green-400" />
-        <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-100">{texts.communityTitle}</h1>
+        <h1 className="text-3xl font-bold text-black-50 dark:text-white-500">{texts.communityTitle}</h1>
       </div>
       
       <section>
         <div className="flex justify-between items-center mb-4">
-            <h2 className="text-2xl font-semibold text-gray-700 dark:text-gray-200 flex items-center">
+            <h2 className="text-2xl font-semibold text-gray-1000 dark:text-gray-500 flex items-center">
                 <ChatBubbleLeftEllipsisIcon className="w-7 h-7 mr-2 text-purple-500 dark:text-purple-400"/>
                 Forum Discussions
             </h2>
@@ -68,7 +68,7 @@ const CommunityPage: React.FC = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-200 flex items-center">
+        <h2 className="text-2xl font-semibold mb-4 text-gray-1000 dark:text-gray-500 flex items-center">
             <PlayCircleIcon className="w-7 h-7 mr-2 text-red-500 dark:text-red-400"/>
             Video Tutorials
         </h2>

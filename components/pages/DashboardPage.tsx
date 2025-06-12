@@ -27,7 +27,7 @@ const DashboardPage: React.FC = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl font-semibold mb-6 text-gray-700 dark:text-gray-500">Quick Access</h2>
+        <h2 className="text-2xl font-semibold mb-6 text-black-50 dark:text-white-500">Quick Access</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           {quickLinks.map(link => (
             <Link to={link.path} key={link.name}>

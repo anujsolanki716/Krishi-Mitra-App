@@ -40,11 +40,11 @@ const IncomePage: React.FC = () => {
     <div className="space-y-8">
       <div className="flex items-center space-x-3">
         <CurrencyRupeeIcon className="w-10 h-10 text-primary dark:text-green-400" />
-        <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-100">{texts.incomeTitle}</h1>
+        <h1 className="text-3xl font-bold text-black-50 dark:text-white-500">{texts.incomeTitle}</h1>
       </div>
       
       <section>
-        <h2 className="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-200 flex items-center">
+        <h2 className="text-2xl font-semibold mb-4 text-gray-1000 dark:text-gray-500 flex items-center">
             <LightBulbIcon className="w-7 h-7 mr-2 text-yellow-500 dark:text-yellow-400"/>
             Income Generation Ideas
         </h2>
@@ -64,7 +64,7 @@ const IncomePage: React.FC = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-200 flex items-center">
+        <h2 className="text-2xl font-semibold mb-4 text-gray-1000 dark:text-gray-500 flex items-center">
             <BuildingStorefrontIcon className="w-7 h-7 mr-2 text-indigo-500 dark:text-indigo-400"/>
             Local Business & Service Listings
         </h2>
