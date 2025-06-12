@@ -143,7 +143,7 @@ const handleVoiceInput = () => {
           ))}
           {isLoading && (
             <div className="flex justify-center py-2">
-              <LoadingSpinner size="sm" text="Ram Ram Ji 🙏 Bas Thodi Der me Soch Ke baata raha hu aap ke saawal ka jawab..." />
+              <LoadingSpinner size="sm" text="Krishi Mitra AI is thinking your Query..." />
             </div>
           )}
           {error && <p className="text-red-500 text-sm text-center">{error}</p>}
@@ -162,7 +162,7 @@ const handleVoiceInput = () => {
             value={input}
             onChange={e => setInput(e.target.value)}
             onKeyPress={e => e.key === 'Enter' && handleSend()}
-            placeholder="Adhik Jankari ke liye yaha tap kare krishi se jude koi bhi question ho..."
+            placeholder="Click here to more information..."
             className="flex-grow p-3 border border-gray-300 dark:border-gray-500 rounded-lg focus:ring-2 focus:ring-primary dark:focus:ring-green-400 outline-none bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-200"
             disabled={isLoading}
           />
