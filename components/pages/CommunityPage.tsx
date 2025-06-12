@@ -78,7 +78,7 @@ const CommunityPage: React.FC = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl font-semibold mb-4 text-gray-700 dark:text-gray-200">Success Stories</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-gray-1000 dark:text-gray-500">Success Stories</h2>
         <Card className="bg-yellow-50 dark:bg-yellow-900">
           <p className="italic text-yellow-700 dark:text-yellow-300">"Using the crop advisory and market linkage features, I was able to increase my profits by 20% this season!" - Anuj Solanki, Uttar Pradesh</p>
           <a href="#" className="text-sm text-yellow-600 dark:text-yellow-400 hover:underline mt-2 inline-block">Read more success stories &raquo;</a>
