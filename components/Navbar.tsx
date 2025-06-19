@@ -43,7 +43,7 @@ const Navbar: React.FC<NavbarProps> = ({ appName }) => {
     <header className="bg-primary dark:bg-green-700 text-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link to="/" className="text-xl md:text-2xl font-bold hover:opacity-80 transition-opacity">
-        <img src="https://videos.openai.com/vg-assets/assets%2Ftask_01jxfahx3fep7sjf4hb83kx318%2F1749639886_img_2.webp?st=2025-06-11T09%3A46%3A39Z&se=2025-06-17T10%3A46%3A39Z&sks=b&skt=2025-06-11T09%3A46%3A39Z&ske=2025-06-17T10%3A46%3A39Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=8ebb0df1-a278-4e2e-9c20-f2d373479b3a&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=gEtuFialJcA4XT1OcSCuzN9ec%2FlfvFhGel64di6XRh4%3D&az=oaivgprodscus" alt="Krishi Mitra Logo" className="h-20 w-18 object-contain" />
+        <img src="https://videos.openai.com/vg-assets/assets%2Ftask_01jxfahx3fep7sjf4hb83kx318%2F1749639886_img_2.webp?st=2025-06-19T10%3A52%3A27Z&se=2025-06-25T11%3A52%3A27Z&sks=b&skt=2025-06-19T10%3A52%3A27Z&ske=2025-06-25T11%3A52%3A27Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=3d249c53-07fa-4ba4-9b65-0bf8eb4ea46a&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=ONScy5kFz%2FiQEvmAquBScyTg0kSSSZL6QnpHBq4WT1U%3D&az=oaivgprodscus" alt="Krishi Mitra Logo" className="h-20 w-18 object-contain" />
           {/* {appName} */}
         </Link>
         
